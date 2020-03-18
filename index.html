@@ -7,7 +7,7 @@
       var videoElement = document.getElementById("videoElement");
       var flvPlayer = flvjs.createPlayer({
         type: "flv",
-        url: "http://138.68.5.224:8080/live/STREAM_NAME.flv"
+        url: "ws://138.68.5.224:8080/live/STREAM_NAME.flv"
       });
       flvPlayer.attachMediaElement(videoElement);
       flvPlayer.load();
